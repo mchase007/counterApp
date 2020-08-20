@@ -9,7 +9,7 @@ function updateBalance(event) {
   // variable for clicked element
   const clickedControl = event.target;
 
-  // element class names for confitional testing
+  // element class names for conditional testing
   const deposit = 'deposit';
   const clear = 'clear';
   const withdraw = 'withdraw';
