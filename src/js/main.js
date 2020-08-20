@@ -15,14 +15,14 @@ function updateBalance(event) {
   const withdraw = 'withdraw';
 
   // conditional test for deposit/clear/withdraw actions
-  // i.e increase/decrease/clear accBalance value 
+  // i.e increase/decrease/clear accBalance value
   // and display action messgae
   if (clickedControl.classList.contains(deposit)) {
     accBalance += 10;
     if (accBalance > 0) {
       actionState.textContent = 'Deposit Confirmed.🎉';
     } else if (accBalance <= 0) {
-      actionState.textContent = 'Creditt balance updated.🙂';
+      actionState.textContent = 'Credit balance updated.🙂';
     }
   } else if (clickedControl.classList.contains(clear)) {
     accBalance = 0;
